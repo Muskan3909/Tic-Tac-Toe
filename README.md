@@ -1,3 +1,12 @@
+
+## Live Demo
+
+| Service | URL |
+|---|---|
+| Frontend (Netlify) | https://frabjous-gumdrop-3689b1.netlify.app/ |
+| Nakama Server (Render) | https://nakama-server-sa0e.onrender.com |
+
+> Note: The Nakama server is hosted on Render free tier and may take 30-60 seconds to wake up on first connection.
 # ✕ · ○ Multiplayer Tic-Tac-Toe
 
 A real-time multiplayer Tic-Tac-Toe game built with **Flutter** (web) and **Nakama** game server, featuring a cyberpunk neon UI, leaderboards, player stats, and private rooms.
