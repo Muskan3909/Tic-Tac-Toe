@@ -1,0 +1,28 @@
+﻿version: '3'
+services:
+  postgres:
+    image: postgres:14-alpine
+    environment:
+      POSTGRES_DB: nakama
+      POSTGRES_USER: nakama
+      POSTGRES_PASSWORD: localdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  nakama:
+    build: .
+    depends_on:
+      - postgres
+    entrypoint:
+      - /bin/sh
+      - -ecx
+      - |
+        /nakama/nakama migrate up --database.address postgres://nakama:localdb@postgres:5432/nakama
+        exec /nakama/nakama --name nakama --database.address postgres://nakama:localdb@postgres:5432/nakama --socket.server_key defaultkey --runtime.js_entrypoint index.js
+    ports:
+      - 7350:7350
+      - 7349:7349
+      - 7351:7351
+
+volumes:
+  pgdata:
