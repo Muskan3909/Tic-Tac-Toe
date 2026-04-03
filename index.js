@@ -233,7 +233,7 @@ function updateLeaderboard(nk, logger, gs) {
           permissionWrite: 1
         }]);
       } catch (e) { logger.error("storageWrite failed: " + e); }
-      var score = stats.wins * 3 + stats.draws;
+      var score = stats.wins * 200 + stats.draws * 50;
       var username = getUsernameById(nk, p.id);
       try {
         nk.leaderboardRecordWrite(LEADERBOARD_ID, p.id, username, score, 0, {
