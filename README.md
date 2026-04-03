@@ -209,7 +209,7 @@ The Nakama client used is `nakama 1.3.0` which requires:
 |---|---|---|
 | ![Login](screenshots/login.png) | ![Lobby](screenshots/lobby.png) | ![Game](screenshots/game.png) |
 
-| Winner | Rankings |
+| Winner | Rankings | Defeat | Stack
 |---|---|
-| ![Winner](screenshots/winner.png) | ![Rankings](screenshots/rankings.png) |
+| ![Winner](screenshots/winner.png) || ![Defeat](screenshots/defeat.png) | ![Rankings](screenshots/rank.png) | ![Stack](screenshots/stack.png) |
 
