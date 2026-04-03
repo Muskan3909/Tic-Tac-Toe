@@ -1,3 +1,14 @@
+
+## Screenshots
+
+| Login | Lobby | Game |
+|---|---|---|
+| ![Login](screenshots/login.png) | ![Lobby](screenshots/lobby.png) | ![Game](screenshots/game.png) |
+
+| Winner | Defeat | Rankings | Stats |
+|---|---|---|---|
+| ![Winner](screenshots/winner.png) | ![Defeat](screenshots/defeat.png) | ![Rankings](screenshots/rank.png) | ![Stats](screenshots/stack.png) |
+
 # ✕ · ○ Multiplayer Tic-Tac-Toe
 
 A real-time multiplayer Tic-Tac-Toe game built with **Flutter** (web) and **Nakama** game server, featuring a cyberpunk neon UI, leaderboards, player stats, and private rooms.
