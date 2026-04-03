@@ -1,15 +1,3 @@
-
-## Screenshots
-
-| Login | Lobby | Game |
-|---|---|---|
-| ![Login](screenshots/login.png) | ![Lobby](screenshots/lobby.png) | ![Game](screenshots/game.png) |
-
-| Winner | Rankings |
-|---|---|
-| ![Winner](screenshots/winner.png) | ![Rankings](screenshots/rankings.png) |
-
-
 # ✕ · ○ Multiplayer Tic-Tac-Toe
 
 A real-time multiplayer Tic-Tac-Toe game built with **Flutter** (web) and **Nakama** game server, featuring a cyberpunk neon UI, leaderboards, player stats, and private rooms.
@@ -213,3 +201,15 @@ The Nakama client used is `nakama 1.3.0` which requires:
 - Binary data must use `utf8.encode/decode` not `String.fromCharCodes`
 - `onError` is a constructor callback, not a stream
 - Storage `value` must be a plain Dart `Map`, not a JSON string
+
+
+## Screenshots
+
+| Login | Lobby | Game |
+|---|---|---|
+| ![Login](screenshots/login.png) | ![Lobby](screenshots/lobby.png) | ![Game](screenshots/game.png) |
+
+| Winner | Rankings |
+|---|---|
+| ![Winner](screenshots/winner.png) | ![Rankings](screenshots/rankings.png) |
+
